@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+table {
+    margin: 100px auto;
+}
+
+table tr th{
+    background-color: #1d3557;
+    color: #fff;
+    width: 250px;
+    padding: 10px 0;
+    font-weight: bold;
+    border: 2px solid #ccc;
+}
+
+table tr td {
+    padding: 10px 10px;
+    width: 250px;
+    border: 2px solid #e9ecef;
+}
+table tr td.snacks {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #dee2e6;
+}
+
+table tr td.quantity input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    text-align: center;
+}
+
+table tr td.price {
+    background-color: #e8eddf;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+table tr td.total {
+    background-color: #e8eddf;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+#plusBurger,#plusPizza, #plusFries, #plusCoke,#plusBrownie{
+    font-size: 20px;
+    height: 50px;
+    width: 40px;
+}
+#minusBurger, #minusPizza, #minusFries, #minusCoke, #minusBrownie{
+    font-size:20px;
+    height: 50px;
+    width: 40px;
+}
+#numBurger, #numPizza, #numFries, #numCoke, #numBrownie{
+   height: 40px;
+   width: 100px;
+   font-size: 20px;
+   border: 1px solid black;
+   text-align: center;
+}
+table tr td.subTotal {
+    background-color: #adb5bd;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+table tr td.total-number{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table tr td.total-number .totalNumber {
+    min-width: 200px;
+    height: 40px;
+    background-color: #e8eddf;
+    border-radius: 10px;
+    line-height: 2;
+}
+table tr td.total-number .dollar-sign { 
+    padding-top: 10px;
+    margin-left: 10px;
+}
+table tr td.tax {
+    background-color: #adb5bd;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+table tr td.total-tax{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table tr td.total-tax .totalTaxes {
+    min-width: 200px;
+    height: 40px;
+    background-color: #e8eddf;
+    border-radius: 10px;
+    line-height: 2;
+}
+
+table tr td.total-tax .percent-sign { 
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+table tr td.FinalBill{
+    background-color: #adb5bd;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+table tr td.final-Bill{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table tr td.final-Bill .finalebill {
+    min-width: 200px;
+    height: 40px;
+    background-color: #e8eddf;
+    border-radius: 10px;
+    line-height: 2;
+}
+table tr td.final-Bill .zero-sign { 
+    padding-top: 10px;
+    margin-left: 10px;
+}

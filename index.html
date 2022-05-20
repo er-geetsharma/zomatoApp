@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Snacks</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th class="total" id="total">Total</th>
+        </tr>
+        <tr>
+            <td class="snacks">Burger</td>
+            <td id="priceBurger" class="price"><span>$</span>100</td>
+            <td class="quantity">
+                <div id="container">
+                <button type="button" class="btn" id="minusBurger">-</button>
+                <input name="number" id="numBurger" min="0" placeholder="0">
+                <button type="button" class="btn" id="plusBurger">+</button>
+            </div></td>
+            <td id="totalBurger" class="total">0</td>
+        </tr>
+        <tr>
+            <td class="snacks">Pizza</td>
+            <td class="price"><span>$</span>250</td>
+            <td class="quantity">
+                <div id="container">
+                    <button type="button" class="btn" id="minusPizza">-</button>
+                    <input name="number" id="numPizza" min="0" placeholder="0">
+                    <button type="button" class="btn" id="plusPizza">+</button>
+                </div>
+            </td>
+            <td class="total" id="totalPizza">0</td>
+        </tr>
+        <tr>
+            <td class="snacks">Fries</td>
+            <td class="price"><span>$</span>50</td>
+            <td class="quantity">
+                <div id="container">
+                <button type="button" class="btn" id="minusFries">-</button>
+                <input name="number" id="numFries" min="0" placeholder="0">
+                <button type="button" class="btn" id="plusFries">+</button>
+            </div></td>
+            <td class="total" id="totalFries">0</td>
+        </tr>
+        <tr>
+            <td class="snacks">Coke</td>
+            <td class="price"><span>$</span>30</td>
+            <td class="quantity">
+                <div id="container">
+                    <button type="button" class="btn" id="minusCoke">-</button>
+                    <input name="number" id="numCoke" min="0" placeholder="0">
+                    <button type="button" class="btn" id="plusCoke">+</button>
+                </div>
+            </td>
+            <td class="total" id="totalCoke">0</td>
+        </tr>
+        <tr>
+            <td class="snacks">Brownie</td>
+            <td class="price"><span>$</span>75</td>
+            <td class="quantity">
+                <div id="container">
+                    <button type="button" class="btn" id="minusBrownie">-</button>
+                    <input name="number" id="numBrownie" min="0" placeholder="0">
+                    <button type="button" class="btn" id="plusBrownie">+</button>
+                </div>
+            </td>
+            <td class="total" id="totalBrownie">0</td>
+        </tr>
+        <tr>
+            <td class="subTotal" colspan="3" id="subTotal">Sub Total</td>
+            <td class="total-number">$<span class="totalNumber" id="total-number">0</span><span class="dollar-sign"></span></td>
+        </tr>
+        <tr>
+            <td class="tax" colspan="3">Tax (10%)</td>
+            <td class="total-tax">$<span class="totalTaxes" id="tax"></span><span class="percent-sign"></span></td>
+        </tr>
+        <tr>
+            <td class="FinalBill" colspan="3">Final Bill Amount</td>
+            <td class="final-Bill">$<span class="finalebill" id="final-bill"></span><span class="zero-sign"></span></td>
+        </tr>
+
+    </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div id="container">
+    Snacks
+    <input type="text" id="snack" name="snack">
+    Price
+    <input type="text" id="price" name="price">
+     <button type="button" class="btn" id="minus">-</button>
+        Quantity<input type="number" name="quantity" id="quantity">
+        <button type="button" class="btn" id="plus">+</button>
+        <span id="total">Total</span>
+    </div> -->
+</body>
+<script src="index.js"></script>
+</html>
